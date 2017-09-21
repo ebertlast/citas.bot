@@ -8,8 +8,8 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 });
 
 const connector = new builder.ChatConnector({
-    appId: '',
-    appPassword: ''
+    appId: '3532d18c-9901-49c7-a4b3-cd09098f96c3',
+    appPassword: 'XkRRcgzioKmdHWF293sTnWA'
 });
 
 var bot = new builder.UniversalBot(connector);
